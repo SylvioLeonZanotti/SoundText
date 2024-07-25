@@ -25,3 +25,6 @@
 - **Administração de Usuários**: Usuários com privilégios administrativos podem gerenciar outros usuários, suspendendo ou reativando contas conforme necessário.
 - **Envio de Logs**: Todas as atividades importantes são registradas e enviadas para um servidor central através de uma API.
 - **Backup Automático**: O sistema realiza backups periódicos do banco de dados e os envia por e-mail.
+
+# Contato
+**Email**: leonzanotti96@gmail.com
