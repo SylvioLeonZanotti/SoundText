@@ -26,5 +26,12 @@
 - **Envio de Logs**: Todas as atividades importantes são registradas e enviadas para um servidor central através de uma API.
 - **Backup Automático**: O sistema realiza backups periódicos do banco de dados e os envia por e-mail.
 
+# Registro de novos usuários
+![image](https://github.com/user-attachments/assets/8b171004-a4b5-4463-82de-b2f7c9cc032b)
+
+# Painel Administrativo
+![image](https://github.com/user-attachments/assets/659d2313-3933-4235-ab05-1d43c17be29b)
+
+
 # Contato
 **Email**: leonzanotti96@gmail.com
