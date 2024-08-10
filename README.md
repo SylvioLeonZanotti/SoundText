@@ -26,6 +26,32 @@
 - **Envio de Logs**: Todas as atividades importantes são registradas e enviadas para um servidor central através de uma API.
 - **Backup Automático**: O sistema realiza backups periódicos do banco de dados e os envia por e-mail.
 
+#  API do Projeto Sound Text
+A **API do projeto Sound Text** foi desenvolvida para gerenciar e controlar um sistema de sonorização personalizado. Esta API permite o gerenciamento de usuários, autenticação, controle de sessões, geração de relatórios do sistema, manipulação de dados no banco de dados, e uma interface administrativa robusta para monitorar e modificar parâmetros do sistema. A API foi desenvolvida utilizando o framework Flask, com SQLite como banco de dados.
+
+# Funcionalidades
+- **1. Autenticação de Usuários**
+**Autenticação**: Permite que usuários façam login com suas credenciais. Implementa verificação de email e senha com suporte para usuários suspensos e inativos.
+Criação de Novos Usuários: Facilita o registro de novos usuários no sistema.
+**Recuperação de Senha**: Disponibiliza funcionalidade para recuperação de senha via email.
+
+- **2. Controle Administrativo**
+**Administração Completa do Sistema**: Através da interface admin.html, administradores podem monitorar o status do sistema, suspender ou reativar contas de usuários, e definir credenciais de suporte.
+Definir Credenciais de Suporte: Permite que administradores configurem remotamente o login e a senha de contas de suporte específicas.
+**Suspensão do Sistema**: Administradores podem alterar o status do sistema para inativo, prevenindo novos logins.
+**Logs Detalhados**: A API registra todas as tentativas de login, fornecendo logs detalhados para auditoria.
+  
+- **3. Geração de Relatórios**
+**Relatório do Sistema**: Gera relatórios PDF com estatísticas do sistema, incluindo número de usuários ativos, usuários suspensos, e gráficos de estabilidade do sistema.
+**Logs de Acesso**: Exporta logs de acessos, tentativas de login e outras atividades dos usuários em formatos legíveis e analisáveis.
+
+- **4. Gerenciamento de Usuários**
+**Listagem e Edição de Usuários**: A API permite listar todos os usuários registrados, editar informações e status de contas diretamente através da interface administrativa.
+**Suspensão e Reativação de Usuários**: Administradores podem suspender ou reativar contas de usuários conforme necessário.
+- **5. Integração com a Interface Gráfica**
+**Páginas Personalizadas**: Interface para exibição de logs e status do sistema diretamente na página admin.html.
+**Relatórios Visuais**: Gráficos e estatísticas geradas são integrados visualmente com a interface para fácil monitoramento.
+
 # Registro de novos usuários
 ![image](https://github.com/user-attachments/assets/8b171004-a4b5-4463-82de-b2f7c9cc032b)
 
