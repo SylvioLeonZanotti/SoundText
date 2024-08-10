@@ -26,6 +26,8 @@
 - **Envio de Logs**: Todas as atividades importantes são registradas e enviadas para um servidor central através de uma API.
 - **Backup Automático**: O sistema realiza backups periódicos do banco de dados e os envia por e-mail.
 
+
+
 #  API do Projeto Sound Text
 A **API do projeto Sound Text** foi desenvolvida para gerenciar e controlar um sistema de sonorização personalizado. Com isso é possível fazer o  gerenciamento de usuários, autenticação, controle de sessões, geração de relatórios do sistema, manipulação de dados no banco de dados, e uma interface administrativa robusta para monitorar e modificar parâmetros do sistema. Seu desenvolvimento foi feito utilizando o framework Flask, com SQLite como banco de dados.
 
