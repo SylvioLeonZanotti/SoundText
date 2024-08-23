@@ -45,11 +45,17 @@ O backend do projeto SoundText foi desenvolvido utilizando Python com Flask, uma
 
 # Tecnologias Utilizadas
 **Python (Flask)**: Estrutura principal do backend.
+
 **SQLite**: Banco de dados leve para armazenar credenciais e logs.
+
 **gTTS**: Geração de áudio em diferentes formatos a partir de texto.
+
 **Pydub**: Manipulação de arquivos de áudio, incluindo conversões.
+
 **Jinja2**: Template engine utilizada para a geração dinâmica das páginas HTML.
+
 **HTML, CSS e JavaScript**: Para a construção da interface web.
+
 **API do Spotify**: Integração para reprodução de playlists e controle de áudio.
 
 Este backend foi desenhado para ser altamente configurável e fácil de expandir, permitindo adaptações rápidas para novas funcionalidades e equipamentos. A infraestrutura modular também facilita a manutenção e a escalabilidade do sistema.
